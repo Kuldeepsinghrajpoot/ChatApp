@@ -31,7 +31,7 @@ function Chat({ socket, username, room }) {
     const imageTags = findImageTags(currentMessage);
     const imageArray = extractBase64DataArray(imageTags);
     socket.emit("images", imageArray);
-  }, [socket,currentMessage]);
+  }, [socket, currentMessage]);
 
   const handleSendMessage = (message) => {
     // if (message.trim() !== '') {

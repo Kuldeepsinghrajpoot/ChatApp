@@ -7,7 +7,7 @@ import 'react-quill/dist/quill.bubble.css';
 const App = () => {
   return (
     <div>
-      <Chat/>
+      <Chat />
     </div>
   );
 }
