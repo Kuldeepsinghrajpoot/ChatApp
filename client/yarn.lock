@@ -5222,6 +5222,11 @@
   "resolved" "https://registry.npmjs.org/ignore/-/ignore-5.2.1.tgz"
   "version" "5.2.1"
 
+"image-compressor@^2.0.3":
+  "integrity" "sha512-/cwVTp+Kx4KejzFtFgpS+TbR/H1eFi1931lptaBPZziQkdDFPKfBqxim9sGPExwF0jiVr7nlXKaG9+02XFo74Q=="
+  "resolved" "https://registry.npmjs.org/image-compressor/-/image-compressor-2.0.3.tgz"
+  "version" "2.0.3"
+
 "immer@^9.0.7":
   "integrity" "sha512-qenGE7CstVm1NrHQbMh8YaSzTZTFNP3zPqr3YU0S0UY441j4bJTg4A2Hh5KAhwgaiU6ZZ1Ar6y/2f4TblnMReQ=="
   "resolved" "https://registry.npmjs.org/immer/-/immer-9.0.16.tgz"

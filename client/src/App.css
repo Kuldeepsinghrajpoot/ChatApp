@@ -72,7 +72,7 @@ body {
 }
 /* Style the entire scrollbar */
 ::-webkit-scrollbar {
-  width: 10px; /* Width of the scrollbar */
+  width: 0px; /* Width of the scrollbar */
 
 }
 
@@ -157,7 +157,7 @@ body {
 
 .chat-window .chat-footer {
   height: 60px;
-  border: 1px solid lightgray;
+  /* border: 1px solid lightgray; */
   border-top: none;
   display: flex;
   /* background: #000; */
@@ -178,6 +178,9 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+button{
+  border: 1px solid lightgray;
+}
 .chat-window .chat-footer button {
   border: 0;
   /* display: grid; */
@@ -185,7 +188,7 @@ body {
   cursor: pointer;
   flex: 15%;
   height: 100%;
-  /* border: 1px solid white; */
+  border: 1px solid white;
   width: 50px;
   background: transparent;
   outline: none;
@@ -195,7 +198,8 @@ body {
 
 .chat-window .chat-footer button:hover {
   color: #43a047;
-  background-color: rgb(98, 52, 204);
+  border: 1px solid lightgray;
+  /* background-color: rgb(98, 52, 204); */
 }
 .hide {
   opacity: 0 !important;
